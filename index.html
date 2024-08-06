@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercice CSS Blog</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle">☰</div>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="post.html">Post</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Un Super Titre</h1>
+    </header>
+    <main>
+        <h2>LES ARTICLES</h2>
+        <hr>
+        <div class="container">
+            <div class="card">
+                <img src="img/logo" alt="logo de l'article">
+                <h3>Un super titre d'article</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci provident cumque vel blanditiis.</p>
+            </div>
+            <div class="card">
+                <img src="img/logo" alt="logo de l'article">
+                <h3>Un super titre d'article</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci provident cumque vel blanditiis.</p>
+            </div>
+            <div class="card">
+                <img src="img/logo" alt="logo de l'article">
+                <h3>Un super titre d'article</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci provident cumque vel blanditiis.</p>
+            </div>
+            <div class="card">
+                <img src="img/logo" alt="logo de l'article">
+                <h3>Un super titre d'article</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci provident cumque vel blanditiis.</p>
+            </div>
+            <div class="card">
+                <img src="img/logo" alt="logo de l'article">
+                <h3>Un super titre d'article</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci provident cumque vel blanditiis.</p>
+            </div>
+            <div class="card">
+                <img src="img/logo" alt="logo de l'article">
+                <h3>Un super titre d'article</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci provident cumque vel blanditiis.</p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const ul = document.querySelector('nav ul');
+        
+        menuToggle.addEventListener('click', () => {
+            ul.classList.toggle('showing');
+        });
+    </script>
+</body>
+</html>
